@@ -6,5 +6,6 @@ public class MyFirstModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 
+        //一些重大物件
     }
 }
