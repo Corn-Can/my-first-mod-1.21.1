@@ -1,5 +1,6 @@
 package com.corncan.myfirstmod;
 
+import com.corncan.myfirstmod.block.ModBlocks;
 import com.corncan.myfirstmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,5 +15,6 @@ public class MyFirstMod implements ModInitializer {
 	public void onInitialize() {
 		//呼叫註冊
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
