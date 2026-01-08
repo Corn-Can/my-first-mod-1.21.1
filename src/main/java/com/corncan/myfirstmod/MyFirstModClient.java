@@ -7,5 +7,6 @@ public class MyFirstModClient implements ClientModInitializer {
     public void onInitializeClient() {
 
         //一些重大物件
+
     }
 }
